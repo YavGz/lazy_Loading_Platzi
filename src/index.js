@@ -1,6 +1,3 @@
-/**
- * This file is just a silly example to show everything working in the browser.
- * When you're ready to start on your site, clear the file. Happy hacking!
- **/
+const URL_API = 'https://source.unsplash.com/random'
 
-console.log('Happy hacking :)')
+console.log('Happy hacking .l. :)')
