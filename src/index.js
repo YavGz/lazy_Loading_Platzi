@@ -5,20 +5,17 @@ const URL_API = 'https://source.unsplash.com/random'
 const nodeAPP = document.querySelector('#container')
 
 const images = document.querySelector('#images')
-
-
 //crear una funcion para obtener un random 
 // const min = 1 /*Minimo de elementos del array*/ 
 // const max = 122 /*Maximo de elementos del array*/
 // const random = () => {
 //   Math.floor(Math.random() * (max - min) + min)
 // }
-
 nodeAPP.addEventListener('click', (event) => {
-  if (event.target.className === 'button-image') {
+  if (event.target.className === 'button-image btn btn-outline-primary') {
     printImage();
   }
-  else if (event.target.className === 'button-clear') {
+  else if (event.target.className === 'button-clear btn btn-outline-secondary') {
     clearNodes();
   }
 })
