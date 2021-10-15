@@ -33,7 +33,7 @@ const printImage = () => {
   
   const imageWrapper = document.createElement("div");
   imageWrapper.className = "bg-gray-300 imagen";
-  imageWrapper.style.minHeight = "160px";
+  imageWrapper.style.minHeight = "120px";
   imageWrapper.style.display = "inline-block";
 
   const div = document.createElement('div')
