@@ -34,4 +34,5 @@ export const registerImage = (imagen) => {
 const logState = () => {
   console.log(`⚫ Total de imágenes: ${totalImages}`);
   console.log(` ✔ Imágenes cargadas: ${loadedImages}`);
+  console.log('-----------------------------------');
 }
