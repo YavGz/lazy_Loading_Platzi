@@ -1,4 +1,4 @@
-{
+{ "homepage": "https://Javier-GT-Yav.github.io/lazy_Loading_Platzi",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",

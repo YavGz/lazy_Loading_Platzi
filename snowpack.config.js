@@ -5,6 +5,6 @@ module.exports = {
     src: '/_dist_',
   },
   buildOptions: {
-    baseUrl: '',
+    baseUrl: 'https://Javier-GT-Yav.github.io/lazy_Loading_Platzi',
   },
 }
